@@ -1,0 +1,126 @@
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+          font-size: 40px;
+          text-align: center;
+          background: rgb(238,174,202);
+          background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+          color: #fff;
+          margin: 0;
+        }
+
+        .inputBox {
+          text-align: center;
+          margin-bottom: 20px;
+          background: #eee;
+          padding: 20px;
+        }
+
+        .inputBox input[type="file"] {
+          display: none;
+        }
+
+        .inputBox label {
+          padding: 14px 26px;
+          cursor: pointer;
+          color: #fff;
+          user-select: none;
+          border-radius: 10px;
+        }
+
+        .inputBox label:active {
+          transform: scale(0.9);
+        }
+
+        .inputBox label i {
+          margin-right: 20px;
+        }
+
+        .inputBox label, .btn {
+          background: #94bbe9;
+        }
+
+        .settings {
+          font-size: 26px;
+        }
+
+        .btn {
+          outline: none;
+          border: none;
+          padding: 12px 18px;
+          border-radius: 10px;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer;
+        }
+
+        .controls {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          gap: 20px;
+        }
+
+        .filter_2 select{
+          padding: 10px;
+          font-size: 20px;
+        }
+
+        .filter_3 label input {
+          padding: 8px 12px;
+          font-size: 20px;
+          outline: none;
+          border: 1px solid #555;
+          border-radius: 10px;
+        }
+
+        .filter_2 select option {
+          font-size: 20px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 10px;
+        }
+        .correct {
+            background-color: green;
+            color: white;
+        }
+        .incorrect {
+            background-color: red;
+            color: white;
+        }
+        .result-summary {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        .total {
+          text-align: center;
+        }
+
+        .percentage, .points{
+          font-size: 40px;
+          color: #eeaeca;
+          font-weight: 600;
+        }
+
+        .btn_submit {
+          background: #e03d85;
+          outline: none;
+          border: none;
+          padding: 12px 18px;
+          border-radius: 10px;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer;
+        }
